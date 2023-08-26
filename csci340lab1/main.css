@@ -1,4 +1,22 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    padding: 10px 0;
+	margin: 30px;
+}
+
+h1 {
+    color:blueviolet;
+    font-size: 56px;
+}
+
+.jumbotron {
+    display: flow-root;
+    align-items: center;
+    font-size: 36px;
+    background-size: contain;
+    background-image: url('https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg');
+    border-color: black;
+    height: 700px;
+
 }
