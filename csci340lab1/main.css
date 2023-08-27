@@ -14,7 +14,7 @@ h1 {
     display: flow-root;
     align-items: center;
     font-size: 36px;
-    background-size: contain;
+    background-size: flex;
     background-image: url('https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg');
     border-color: black;
     height: 700px;
