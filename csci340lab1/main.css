@@ -3,6 +3,7 @@ body {
     font-weight: 300;
     padding: 10px 0;
 	margin: 30px;
+    background-color: black;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
     background-size: flex;
     background-image: url('https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg');
     border-color: black;
+    background-color: black;
     height: 700px;
 
 }
