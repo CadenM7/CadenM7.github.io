@@ -14,9 +14,9 @@ h1 {
 .jumbotron {
     display: flow-root;
     align-items: center;
-    font-size: 36px;
+    font-size: 64px;
     background-size: flex;
     background-color: bisque;
-    height: 700px;
+    height: 400px;
 
 }
