@@ -4,7 +4,8 @@ body {
     padding: 10px 0;
 	margin: 70px;
     background-image: url('https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg');
-    color:aliceblue;
+    color:blueviolet;
+    font-size: 64px;
 }
 
 h1 {
