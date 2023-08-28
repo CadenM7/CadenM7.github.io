@@ -4,7 +4,7 @@ body {
     padding: 10px 0;
 	margin: 70px;
     background-image: url('https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg');
-    color:blueviolet;
+    color:bisque;
     
 }
 
@@ -24,20 +24,20 @@ h1 {
 }
 head{
     font-size: 64px;
-    color:blueviolet;
+    color:bisque;
 }
 
 header{
     font-size: 32px;
-    color:blueviolet;
+    color:bisque;
 }
 
 ul{
     font-size: 64px;
-    color:blueviolet;
+    color:bisque;
 }
 
 li{
     font-size: 64px;
-    color:blueviolet;
+    color:bisque;
 }
