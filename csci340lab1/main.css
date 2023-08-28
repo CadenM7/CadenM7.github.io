@@ -14,10 +14,10 @@ h1 {
 }
 
 .jumbotron {
-    display:contents;
+    display:flex;
     align-items: center;
     font-size: 64px;
-    background-size: flex;
+    background-size:auto;
     background-image: url('https://images.pexels.com/photos/7746082/pexels-photo-7746082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     height: 400px;
     
