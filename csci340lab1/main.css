@@ -12,6 +12,12 @@ h1 {
     color:blueviolet;
     font-size: 64px;
 }
+.page-description{
+    margin: 2px;
+    text-align: center;
+    padding: 30px;
+    color:blueviolet;
+}
 
 head{
     font-size: 64px;
@@ -36,3 +42,10 @@ p{
     font-size: 36px;
     color:bisque;
 }
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://phgcdn.com//images/uploads/MOBBH/masthead/MOBBH-masthead-battlehouse0071exterior.jpg');
+    background-size: cover;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
