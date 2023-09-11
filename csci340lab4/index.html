@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html> 
     <head>
-        <titie> Best demo Ever</titie>
-        <link rel ="style.css"></link>
+        <meta charset="utf-8">
+        <title>Challenge: Creature creator</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            .result {
+                font-size: 20px;
+                font-weight: bold;
+                color: blue;
+            }
+        </style>
     </head>
     <body>
-        <p>
-            Hello World
-        </p>
-
-
-
+        <h1>Creature Creator</h1>
+        
+        <p>What happens when you combine these two animals?</p>
+        <img src="https://www.kasandbox.org/programming-images/animals/shark.png" height="150" alt="shark">
+        <img src="https://www.kasandbox.org/programming-images/animals/spider.png" height="150" alt="spider">
+        
+        <p class="result">You get a sharkspider!</p>
+        
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'>
+        </script>
+        <script>
+            var animals = $("<p>");
+            animals.text("the animals are attacking");
+            animals.addClass("result");
+            $("body").append(animals);
+            
+        </script>
     </body>
 </html>
