@@ -14,12 +14,23 @@ h1 {
     max-width: 100%;
     height: auto;
   }
+  .dog {
+    max-width: 100%;
+    height: auto;
+  }
   .center {
       margin: auto;
   }
+
+  .catfacts {
+    min-height: 200px;
+     background-color: #FFFFFF;
+    border: 15px solid #F9F9F9;
+   padding:20px;
+ }
   
   
-  .fact {
+  .dogfacts {
      min-height: 200px;
       background-color: #FFFFFF;
      border: 15px solid #F9F9F9;
