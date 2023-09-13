@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $('.cookie').click(function() {
+    $('.cat').click(function() {
       $.ajax({
         dataType: "jsonp",
         jsonpCallback: "parseQuote",
-        url: "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=parseQuote",
+        url: "https://api.thecatapi.com/v1/images/search",
         success: function(results) {
           $('.fortune').text(results["quoteText"]);
         },
@@ -13,3 +13,5 @@ $(document).ready(function() {
       });
     });
   });
+
+  

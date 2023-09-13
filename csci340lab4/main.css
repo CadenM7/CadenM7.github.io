@@ -10,7 +10,7 @@ h1 {
     text-align: center;
   }
   
-  .cookie {
+  .cat {
     max-width: 100%;
     height: auto;
   }
@@ -19,11 +19,11 @@ h1 {
   }
   
   
-  .fortune {
-     min-height: 100px;
+  .fact {
+     min-height: 200px;
       background-color: #FFFFFF;
-     border: 10px solid #F9F9F9;
-    padding:10px;
+     border: 15px solid #F9F9F9;
+    padding:20px;
   }
   
   body {
