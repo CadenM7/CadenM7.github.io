@@ -16,6 +16,18 @@ $(document).ready(function() {
           console.log(error);
         }
       });
+      $.ajax({
+        dataType: "json",
+        url: "https://meowfacts.herokuapp.com/",
+        success: function(results) {
+          console.log("Fact Found");
+          console.log(results)
+          $('.catfacts').text(results["data"]["0"]);
+        },
+        error: function(xhr,status,error) {
+          console.log(error);
+        }
+      });
     });
     $('#dclicker').click(function() {
       $.ajax({
@@ -37,7 +49,7 @@ $(document).ready(function() {
         dataType: "json",
         url: 'https://dogapi.dog/api/v2/facts?limit=1',
         success: function(results) {
-          $('.dogfacts').text(results["data"]["body"]);
+          $('.dogfacts').text(results["data"][0]['attributes']["body"]);
           console.log("Dog Fact");
           console.log(result);
         },
@@ -47,18 +59,6 @@ $(document).ready(function() {
       });
     });
     console.log("Finding Fact");
-    $.ajax({
-      dataType: "json",
-      url: "https://meowfacts.herokuapp.com/",
-      success: function(results) {
-        console.log("Fact Found");
-        console.log(results)
-        $('.catfacts').text(results["data"]["0"]);
-      },
-      error: function(xhr,status,error) {
-        console.log(error);
-      }
-    });
   });
 
   
