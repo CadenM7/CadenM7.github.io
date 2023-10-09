@@ -6,10 +6,36 @@ h1 {
   }
   #cclicker{
     margin-left: 350px;
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: black;
+  }
+  #cclicker:hover {
+    background-color: burlywood;
+    color: white;
   }
 
   #dclicker{
     margin-left: 235px;
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: black;
+  }
+  #dclicker:hover {
+    background-color: burlywood;
+    color: white;
   }
   
   p {
@@ -49,6 +75,10 @@ h1 {
   
   body {
       margin: 0;
+      padding: 0;
+      background-color: aquamarine;
+  }
+
       padding: 0;
       background-color: aquamarine;
   }
