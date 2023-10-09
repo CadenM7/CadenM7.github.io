@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Lacrosse"
 ---
 Lacrosse is a contact team sport played with a lacrosse stick and a lacrosse ball. It is the oldest organized sport in North America, with its origins with the indigenous people of North America as early as the 12th century.
