@@ -60,7 +60,3 @@ $(document).ready(function() {
     });
     console.log("Finding Fact");
   });
-
-  
-
-  
