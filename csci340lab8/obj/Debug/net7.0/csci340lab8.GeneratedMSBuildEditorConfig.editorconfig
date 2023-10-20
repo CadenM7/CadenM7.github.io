@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\caden\OneDrive\Databases\CadenM7.github.io\csci340lab8
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/caden/OneDrive/Databases/CadenM7.github.io/csci340lab8/Pages/Anime/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Databases/CadenM7.github.io/csci340lab8/Pages/Anime/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Databases/CadenM7.github.io/csci340lab8/Pages/Anime/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Databases/CadenM7.github.io/csci340lab8/Pages/Anime/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Databases/CadenM7.github.io/csci340lab8/Pages/Anime/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/caden/OneDrive/Databases/CadenM7.github.io/csci340lab8/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
