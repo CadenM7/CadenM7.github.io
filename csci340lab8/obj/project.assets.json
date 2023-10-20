@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\csci340lab8\\csci340lab8.csproj",
+      "projectUniqueName": "C:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\csci340lab8.csproj",
       "projectName": "csci340lab8",
-      "projectPath": "C:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\csci340lab8\\csci340lab8.csproj",
+      "projectPath": "C:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\csci340lab8.csproj",
       "packagesPath": "C:\\Users\\caden\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\csci340lab8\\obj\\",
+      "outputPath": "C:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caden\\AppData\\Roaming\\NuGet\\NuGet.Config"
