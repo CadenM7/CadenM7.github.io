@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lXTtRkJhMTdpdpOS5pGVKCOPnZzHcqWpHNTMawOcoWmVpfR3a2zXZFIjbl4BmApXC7lPD3UxtkknCVE0KmBTUQ==",
+  "dgSpecHash": "Qey5LTPLfftW24XsbwRWUTujIUGDgkKsDII4I3lkHaE4QoS5++4ZRImJO9ufPfqfveC6Rlyn4Wf5UpOPTnmhKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\csci340lab8.csproj",
+  "projectFilePath": "c:\\Users\\caden\\OneDrive\\Databases\\CadenM7.github.io\\csci340lab8\\csci340lab8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caden\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\caden\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

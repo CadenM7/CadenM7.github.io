@@ -7,13 +7,13 @@ public static class SeedData
 {
     public static void Initialize(IServiceProvider serviceProvider)
     {
-        using (var context = new RazorPagesMovieContext(
+        using (var context = new csci340lab8AnimeContext(
             serviceProvider.GetRequiredService<
-                DbContextOptions<RazorPagesMovieContext>>()))
+                DbContextOptions<csci340lab8AnimeContext>>()))
         {
-            if (context == null || context.Movie == null)
+            if (context == null || context.Anime == null)
             {
-                throw new ArgumentNullException("Null RazorPagesMovieContext");
+                throw new ArgumentNullException("Null RazorPagesAnContext");
             }
 
             // Look for any movies.

@@ -21,12 +21,35 @@ namespace csci340lab8.Pages_Anime
 
         public IList<Anime> Anime { get;set; } = default!;
 
+         [BindProperty(SupportsGet = true)]
+        public string? SearchString { get; set; }
+
+        public SelectList? Genres { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public string? MovieGenre { get; set; }
+
         public async Task OnGetAsync()
-        {
-            if (_context.Anime != null)
-            {
-                Anime = await _context.Anime.ToListAsync();
-            }
-        }
+{
+    // Use LINQ to get list of genres.
+    IQueryable<string> genreQuery = from m in _context.Anime
+                                    orderby m.Genre
+                                    select m.Genre;
+
+    var animes = from a in _context.Anime
+                 select a;
+
+    if (!string.IsNullOrEmpty(SearchString))
+    {
+        animes = animes.Where(s => s.Title.Contains(SearchString));
+    }
+
+    if (!string.IsNullOrEmpty(MovieGenre))
+    {
+        animes = animes.Where(x => x.Genre == MovieGenre);
+    }
+    Genres = new SelectList(await genreQuery.Distinct().ToListAsync());
+    Anime = await animes.ToListAsync();
+}
     }
 }
