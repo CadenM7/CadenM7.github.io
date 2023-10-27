@@ -32,9 +32,9 @@ namespace csci340lab8.Pages_Anime
         public async Task OnGetAsync()
 {
     // Use LINQ to get list of genres.
-    IQueryable<string> genreQuery = from m in _context.Anime
-                                    orderby m.Genre
-                                    select m.Genre;
+    IQueryable<string> genreQuery = from a in _context.Anime
+                                    orderby a.Genre
+                                    select a.Genre;
 
     var animes = from a in _context.Anime
                  select a;
